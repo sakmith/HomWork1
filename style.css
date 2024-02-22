@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Angkor-Regular;
+    src: url(../fonts/Angkor/Angkor-Regular.ttf);
+}
+@font-face {
+    font-family: Battambang-Regular;
+    src: url(../fonts/Battambang/Battambang-Regular.ttf);
+}
+@font-face {
+    font-family: Hanuman-Regular;
+    src: url(../fonts/Hanuman/Hanuman-Regular.ttf);
+}
+@font-face {
+    font-family: Moul-Regular;
+    src: url(../fonts/Moul/Moul-Regular.ttf);
+}
+@font-face {
+    font-family: Siemreap-Regular;
+    src: url(../fonts/Siemreap/Siemreap-Regular.ttf);
+}
+.header{
+    width: 1200px;
+    height: 80px;
+    margin: 50px auto;
+    background-color: rgb(55, 122, 122);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+.container-1{
+    width: 1200px;
+    padding: 15px;
+    margin: 50px auto;
+    background-color: rgb(25, 77, 77);
+    border-radius: 8px;
+}
+.container-1 p{
+    font-size: 17px;
+    font-style: italic;
+    font-family: Siemreap-Regular;
+    color: white;
+}
+.container-1 p span{
+    color: lawngreen;
+}
+.fonts-family{
+    width: 1200px;
+    height: 80px;
+    background-color: rgb(83, 115, 126);
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.fonts-family h1{
+    color: white;
+    font-size: 30px;
+}
+.container-2{
+   width: 1200px;
+    margin: 50px auto;
+}
+.container-2 .row{
+    width: 100%;
+    display: flex;
+    gap: 40px;
+    align-items: start;
+    flex-wrap: wrap;
+}
+.container-2 .row .col{
+    width: 580px;
+    height: 400px;
+    background-color: black;
+    border-radius: 8px;
+    color: white;
+    padding: 20px;
+}
+.container-2 .row .col h1{
+    margin-bottom: 20px;
+    color: red;
+}
+.container-2 .row .col p{
+    font-size: 17px;
+    text-indent: 30px;
+}
+.container-2 .row .battambong{
+    font-family: Battambang-Regular;
+}
+.container-2 .row .moul{
+    font-family: Moul-Regular;
+}
+.container-2 .row .angkor{
+    font-family: Angkor-Regular;
+}
+.container-2 .row .hanuman{
+    font-family: Hanuman-Regular;
+}
+.container-2 .row .siemreap{
+    font-family: Siemreap-Regular;
+}
